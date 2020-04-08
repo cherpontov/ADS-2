@@ -23,7 +23,8 @@ int countPairs2(int *arr,int len,int value)
 		}
 	}
 	return a;
-}int countPairs3(int *arr,int len,int value)
+}
+int countPairs3(int *arr,int len,int value)
 {
 	int a = 0;
 	for (int i = 0; i < len-1; i++)
